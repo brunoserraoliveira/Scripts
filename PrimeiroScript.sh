@@ -9,4 +9,8 @@ echo "=============================================================="
 echo "Listagem dos alunos"
 sort ../arquivos/alunos2.txt
 
+#Aluno: Bruno Oliveira 
+
+
+
 
