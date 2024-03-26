@@ -17,19 +17,23 @@
 #
 ######################################################################
 
+DATAHORA=$(date +%H:%M)
+ARQALUNOS="/home/bruno/arquivos/alunos2.txt"
+
 # Função de leitura da data e hora
 clear
 echo "==================== Meu primeiro script ====================="
 echo ""
-echo -n "Exibir data e hora atual"
-date
+echo "Exibir data e hora atual: $DATAHORA "
 
 # Area de leitura da lista de alunos
 echo "=============================================================="
 echo "Listagem dos alunos"
-sort ../arquivos/alunos2.txt  # Caminho do arquivo de alunos
-
- 
+sort $ARQALUNOS  # Caminho do arquivo de alunos
+echo ""
+DATAHORA=$(date +%H)
+echo "=============================================================="
+echo "Nova Hora Atual: $DATAHORA"
 
 
 
