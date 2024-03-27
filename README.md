@@ -2,4 +2,4 @@
 
 ## Professor Ricardo Prudenciato
 
-## Aluno: ### Bruno Oliveira 
+### Aluno: Bruno Oliveira 
